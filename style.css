@@ -108,3 +108,56 @@ input{
     border: none;
     outline: none;
 }
+
+ /* Layout */
+
+
+ /* Reusable CSS classes */
+
+
+ /* SIDEBAR */
+.sidebar{
+    position: fixed;
+    width: 100px;
+    height: 100vh;
+    background-color: var(--body-color);
+    border-right: 1px solid var(--box-color);
+}
+
+.nav__logo{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1.8rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--skin-color);
+    text-align: center;
+    margin: auto;
+}
+
+.nav__logo-text{
+    font-size: 1.125rem;
+    color: var(--title-color);
+    font-weight: var(--font-bold);
+    line-height: 40px;
+}
+
+
+/* Active Link */
+
+
+/* MAIN */
+
+
+/* Home Section */
+
+
+/* Buttons */
+
+
+/* About Section */
+
+
+/* Qualification Section */
