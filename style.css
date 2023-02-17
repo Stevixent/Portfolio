@@ -202,7 +202,9 @@ input{
 }
 
 /* MAIN */
-
+.main{
+    margin-left: 100px;
+}
 
 /* Home Section */
 
