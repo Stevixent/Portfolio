@@ -216,9 +216,9 @@ input{
 
 /* Home Section */
 .home{
-    background: url();
+    background: url(/img/img.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: center ;
     height: 100vh;
 }
 
@@ -271,6 +271,21 @@ input{
     display: none;
 }
 
+.home__title{
+    font-size: var(--biggest-font-size);
+}
+
+.home__subtitle{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-75);
+}
+
+.home__description{
+    max-width: 450px;
+    margin-bottom: var(--mb-2);
+}
+
 .my__info{
     display: flex;
     column-gap: 1.8rem;
@@ -293,10 +308,38 @@ input{
     font-weight: var(--font-medium);
 }
 
+.info__icon{
+    font-size: 1.8rem;
+    color: var(--skin-color);
+    margin-right: var(--mb-0-75); 
+}
+
 /* Buttons */
+.button{
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+    background-color: var(--skin-color);
+    color: var(--title-color);
+    padding: .75rem 1.4rem;
+    border-radius: 5px;
+    font-weight: var(--font-medium);
+    position: relative;
+    z-index: 1;
+}
+
 
 
 /* About Section */
 
 
 /* Qualification Section */
+
+
+/* Skills Section */
+
+
+/* Work Section */
+
+
+/* Active Item  */
