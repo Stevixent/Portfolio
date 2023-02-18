@@ -110,7 +110,15 @@ input{
 }
 
  /* Layout */
+.container{
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.grid{
+  display: grid;  
+}
 
  /* Reusable CSS classes */
 
@@ -207,7 +215,13 @@ input{
 }
 
 /* Home Section */
+.home{
+    background: url(../Portfolio/img/img1.jpg);
+}
 
+.home__img{
+    display: none;
+}
 
 /* Buttons */
 
