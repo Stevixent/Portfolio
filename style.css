@@ -4,10 +4,14 @@
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
 }
+body{
+    background-image: linear-gradient(to bottom right, rgb(68, 123, 243),rgb(70, 207, 166));
+}
+
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to bottom right, rgb(68, 123, 243),rgb(70, 207, 166));
+    /* background-image: linear-gradient(to bottom right, rgb(68, 123, 243),rgb(70, 207, 166)); */
 }
 nav{
     display: flex;
@@ -104,5 +108,55 @@ h4{
 .about{
     width: 100%;
     padding: 100px 0px;
+    background-color: #58c1e1;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+   color: white;
+   font-size: 75px;
+   text-transform: capitalize;
+   margin-bottom: 20px; 
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
     background-color: #00bff9;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #00bff9;
+    cursor: pointer;
 }
